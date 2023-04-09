@@ -1,4 +1,4 @@
-![img.png](../tbolimpiada_finals_DevOps/banner.png)
+![img.png](banner.png)
 # Задание финала номинация DevOps 2023
 
 ## Фабула
