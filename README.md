@@ -139,3 +139,20 @@ g++ is already the newest version (4:9.3.0-1ubuntu2).
 2022-12-02 14:05:28.0000000000 /etc/libnl-3/pktloc
 <более старый вывод опущен>
 ```
+
+8. Попробуем найти историю изменений, разработчиком
+```
+ubuntu $ git config --list --show-origin
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=https://github.com/Sehktel/DevSecOps.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.main.remote=origin
+file:.git/config        branch.main.merge=refs/heads/main
+ubuntu $
+```
+
+## Вывод
+Вероятно разработчки внедрил изменения libstdc++.so.6 который нужно починить root'м
